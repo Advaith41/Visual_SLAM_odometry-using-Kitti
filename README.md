@@ -14,7 +14,7 @@ These sensors were mounted on an autonomous vehicle named Annieway. The dataset 
 ## Coordinate Transformation and Sensor Fusion
 To combine data from multiple sensors effectively, all sensor readings are transformed into a unified coordinate system. For this project, the left grayscale camera's coordinate frame is chosen as the global reference. The transformation is achieved using the projection matrices provided by the KITTI dataset, ensuring that the sensor data aligns correctly for further analysis.
 
-![Coordinate Frame](https://github.com/Advaith41/Visual_SLAM_odometry-using-Kitti/blob/main/src/img/img_2.png)
+![Coordinate Frame](https://github.com/Advaith41/Visual_SLAM_odometry-using-Kitti/blob/main/src/img/img_1.png)
 
 
 ## Methodology
@@ -25,7 +25,7 @@ Stereo matching is used to derive depth information by comparing images from the
 
 ![Depth Estimation](https://github.com/Advaith41/Visual_SLAM_odometry-using-Kitti/blob/main/src/img/img_0.png)
 
-![SGBM](https://github.com/Advaith41/Visual_SLAM_odometry-using-Kitti/blob/main/src/img/img_0.png)
+![SGBM](https://github.com/Advaith41/Visual_SLAM_odometry-using-Kitti/blob/main/src/img/img_2.png)
 
 
 
@@ -52,7 +52,7 @@ To mitigate the drift that can occur with visual odometry, **LIDAR data** is inc
 ### 1. Individual Frame Analysis
 The first phase involves evaluating the performance of individual algorithms (SGBM for disparity and SIFT for feature matching). The stereo images from consecutive frames are processed to calculate disparity and depth. These depth values are then compared with the LIDAR data to measure the accuracy of the stereo matching approach. Early results show good alignment with LIDAR data, though some discrepancies remain.
 
-![Visual SLAM Image](https://github.com/Advaith41/Visual_SLAM_odometry-using-Kitti/blob/main/src/img/img_0.png)
+![Visual SLAM Image](https://github.com/Advaith41/Visual_SLAM_odometry-using-Kitti/blob/main/src/img/img_6.png)
 
 ### 2. Pose Estimation with and without LIDAR Integration
 Two different methods for pose estimation are compared:
