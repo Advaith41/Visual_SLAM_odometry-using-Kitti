@@ -1,5 +1,5 @@
 # Visual SLAM & Odometry Using KITTI
-
+![Depth Calculation](https://github.com/Advaith41/Visual_SLAM_odometry-using-Kitti/blob/main/src/img/vslamkitti.gif)
 ## Project Overview
 This project explores the use of visual odometry and Simultaneous Localization and Mapping (SLAM) using the KITTI dataset, focusing on vehicle pose estimation. By employing stereo image matching techniques, we aim to calculate the vehicle's trajectory over time and compare these estimations with ground truth data to assess accuracy. Additionally, we incorporate LIDAR data to refine pose estimates and improve overall precision.
 
